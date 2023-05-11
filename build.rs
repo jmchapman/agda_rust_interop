@@ -13,7 +13,7 @@ fn main() -> Result<(), std::io::Error> {
 
     Command::new("agda2rust")
         .current_dir(out_dir)
-        .arg("--rust-no-main")
+//        .arg("--rust-no-main")
         .arg(AGDA_SOURCE)
         .output()?;
 
