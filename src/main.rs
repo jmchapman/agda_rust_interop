@@ -6,6 +6,12 @@
 #![allow(unreachable_patterns)]
 #![allow(non_snake_case)]
 
+#![allow(unconditional_recursion)]
+#![allow(unused_variables)]
+#![allow(dead_code)]
+
+
+
 // Include the compiled Agda file
 include!(concat!(env!("OUT_DIR"), "/Test.rs"));
 
